@@ -8,22 +8,25 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		//Declaração de Variável
+		//Declaração de Variáveis
 		int i;
 		int resultado;
 
 		//Pós-Incremento
 		i = 1;
 		resultado = i++;
+		//Exibe no console
 		Console.WriteLine("Pós-Incremento: " + resultado);
 
 		//Pré-Incremento
 		i = 1;
 		resultado = ++i;
+		//Exibe no console
 		Console.WriteLine("Pré-Incremento: " + resultado);
 
 		//Pós-Incremento
 		i = 1;
+		//Exibe no console
 		Console.WriteLine("Pós-Incremento IF");
 		if (i++ == 2)
 			Console.WriteLine("É igual");
@@ -32,6 +35,7 @@ class Program
 
 		//Pré-Incremento
 		i = 1;
+		//Exibe no console
 		Console.WriteLine("Pré-Incremento IF");
 		if (++i == 2)
 			Console.WriteLine("É igual");
